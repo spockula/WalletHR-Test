@@ -1,0 +1,69 @@
+
+/* You can add global styles to this file, and also import other style files */
+*{
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: ProximaNova;
+    src: url("./assets/fonts/ProximaNova-Reg.otf") format("opentype");
+}
+
+@font-face {
+    font-family: ProximaNova;
+    font-weight: 400;
+    src: url("./assets/fonts/ProximaNova-Black.otf") format("opentype");
+}
+
+@font-face {
+    font-family: ProximaNova;
+    font-weight: bold;
+    src: url("./assets/fonts/ProximaNova-Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: ProximaNova;
+    font-weight: lighter;
+    src: url("./assets/fonts/ProximaNova-Thin.otf") format("opentype");
+}
+
+h1, h2, h3, h4, h5, h6, p, html, button{
+    font-family: ProximaNova;
+    color:black;
+}
+
+p{
+    margin:0px;
+}
+
+
+.bg-purple{
+    background: #23123A;
+}
+
+.page .main-container{
+    padding:40px;
+    min-height:calc(100vh - 84px);
+}
+
+.relative{
+    position:relative;
+}
+
+.uk-button-primary{
+    background: #59D8D1;
+    padding:0px;
+    font-size:12px;
+    border-radius: 18px;
+    line-height: 1em;
+    padding:6px;
+    font-weight: bolder;
+}
+
+.margin-bottom{
+    margin-bottom: 20px;
+}
+
+
+.nomargin{
+    margin-top:0px !important;
+}

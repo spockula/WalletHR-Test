@@ -1,0 +1,101 @@
+
+.page .main-container h1{
+    color:white;
+    font-weight: bolder;
+    font-size:80px;
+}
+
+.page .bgpng{
+    width:100%;
+    position: absolute;
+    top:0px;
+    left:0px;
+    height: calc(100vh - 84px);
+    background-image: url("/assets/images/bg.png");
+    background-size: cover;
+    background-position: center center;
+    display:inline-block;
+}
+
+.credit-card-container .uk-button-orange{
+    width:100%;
+    background:#FA6E3D;
+    border-radius: 8px;
+    font-size:12px;
+    font-weight: bolder;
+    color:white;
+}
+
+.credit-card-container {
+    background: #F1F5F8;
+    padding-top:40px;
+    padding-bottom:40px;
+}
+.credit-card-container h2{
+    font-weight: 400;
+}
+
+.credit-card-container .credit-card-info{
+    padding:40px;
+    background-color: white;
+    margin:40px;
+
+}
+
+.credit-card-container .border-bottom{
+    border-bottom: 1px solid #7F949C;
+}
+
+.credit-img{
+    width: 270px;
+}
+
+.orange{
+    color: black;
+    font-weight: bold;
+}
+
+.page-one-container{
+    font-weight:400;
+}
+
+.credit-card-container .see-details{
+    margin-top:20px;
+}
+
+.credit-card-container .star-o{
+    position: relative;
+    top:-1px;
+}
+
+.credit-card-container .stars-container{
+    display: inline;
+}
+
+.credit-card-container .reviews-text{
+    margin-left:5px;
+    position: relative;
+    top:2px;
+}
+
+.padding-left-right{
+    padding-left:40px;
+    padding-right:40px;
+}
+
+@media (max-width: 960px){
+    .credit-card-container .credit-card-info{
+        margin:0px;
+    }
+    .credit-card-container{
+        padding-bottom:0px;
+    }
+    .credit-card-container .credit-card-info{
+        padding-left:0px;
+        padding-right:0px;
+    }
+    .credit-card-container .padding-l-r-on-mobile{
+       padding-left:40px;
+       padding-right:40px;
+    }
+}
