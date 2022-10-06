@@ -3,18 +3,6 @@ import { NgModule, Component,ErrorHandler } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from "@angular/router";
 import { LandingComponent } from './pages/landing/landing.component';
-import {FontAwesomeModule} from '@fortawesome/angular-fontawesome';
-import {
-    faStar,
-    faMarker,
-    faAt,
-    faUser,
-    faFlag,
-    faMapMarked,
-    faUserGraduate,
-    faDollarSign
-  } from '@fortawesome/free-solid-svg-icons';
-  import {faStar as farStar} from '@fortawesome/free-regular-svg-icons';
 import { HeaderComponent } from './core/header/header.component';
 
 @Component({
@@ -34,7 +22,6 @@ export class AppComponent {}
     BrowserModule,
     CommonModule,
     RouterModule,
-    FontAwesomeModule,
     RouterModule.forRoot([
         {
             path : "test-one",
